@@ -1,0 +1,17 @@
+{
+  "domain": "modbus_demo",
+  "name": "Modbus Demo",
+  "codeowners": [
+    "@wlcrs"
+  ],
+  "config_flow": true,
+  "requirements": [
+    "tmodbus==0.2.3"
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/modbus_demo",
+  "iot_class": "local_polling",
+  "loggers": [
+    "tmodbus"
+  ],
+  "version": "0.1.0"
+}
